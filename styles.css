@@ -9,7 +9,7 @@
 body {
     display: grid;
     grid-template-columns: 15rem auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: min-content auto;
     height: 100vh;
     margin: 0;
     background-color: var(--text-primary);
